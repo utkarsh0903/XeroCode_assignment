@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+@import "colors";
+@import "signup";
+
+body{
+    background-color: $primary;
+    font-family: "Nunito", sans-serif;
+}
